@@ -6,8 +6,6 @@ import random
 import json
 import os
 from collections import defaultdict
-
-# FIX: import from environment (canonical), not environment1
 from environment import TrafficEnv, ACTION_LIST, ACTIONS, get_carbon_intensity
 
 # Hyperparameters
