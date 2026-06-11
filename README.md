@@ -1,4 +1,4 @@
-# Climate-Aware Traffic Signal Optimization (Reinforcement Learning)
+# Traffic Signal Optimization (Reinforcement Learning)
 
 A Reinforcement Learning–based intelligent traffic signal control system that reduces congestion and CO₂ emissions using **Q-Learning**.
 
