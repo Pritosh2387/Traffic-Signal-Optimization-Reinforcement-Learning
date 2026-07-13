@@ -13,4 +13,8 @@ jobs:
     steps:
       - name: Ping Render
         run: |
-          curl -L https://carbonstop-ai.onrender.com/health
+          echo "Pinging Render at $(date -u)"
+          curl --fail --location --silent --show-error \
+            https://carbonstop-ai.onrender.com/health
+          echo ""
+          echo "Ping successful "
